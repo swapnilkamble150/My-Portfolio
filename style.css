@@ -7,6 +7,7 @@ body, html {
                 line-height: 1.5;
                 scroll-behavior: smooth;
                 font-family: 'Share Tech Mono', monospace;
+                
             }
 
 body.night, html.night {
@@ -15,6 +16,11 @@ body.night, html.night {
                             scroll-behavior: smooth;
                         }
 
+
+p{
+    font-size: 20px;
+
+}
 
 h1 {
     display: block;
@@ -450,14 +456,17 @@ section .skills{
     opacity 0.6s cubic-bezier(.694,0,.335,1) 0s; 
     transition: transform 0.6s cubic-bezier(.694,0,.335,1) 0s, 
     opacity 0.6s cubic-bezier(.694,0,.335,1) 0s; 
+    font-size: 30px;
 }
 
 .skills .skillz {
+    font-size: 30px;
     display: flex;
     justify-content: space-between;
 }
 
 .skills .skillz_category_label {
+    font-size: 30px;
     font-weight: 800;
     color: #36363c;
     text-transform: uppercase;  
@@ -466,6 +475,7 @@ section .skills{
 .skills .skillz_category_item {
     margin: 3px 0;
     font-size: .9rem;
+    font-size: 20px;
 }
 
 .section .featured-projects {
